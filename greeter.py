@@ -7,5 +7,8 @@ class Person:
     def greet(self):
         print(f'Hello {self.name}!')
 
+    def intro(self):
+        print(f'You are {self.age} years old, and live in {self.country}!')
 p = Person('John', 24, 'United Kingdom')
 p.greet()
+p.intro()
