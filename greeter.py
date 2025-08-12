@@ -4,3 +4,6 @@ class Person:
 
     def greet(self):
         print(f'Hello {self.name}!')
+
+p = Person('John')
+p.greet()
