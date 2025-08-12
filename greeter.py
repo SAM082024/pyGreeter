@@ -9,6 +9,12 @@ class Person:
 
     def intro(self):
         print(f'You are {self.age} years old, and live in {self.country}!')
+
+# creates a new instance of person (class) with the parameters name, age and country
 p = Person('John', 24, 'United Kingdom')
+
+# calls the greet function from the person instance
 p.greet()
+
+# calls the intro function from the person instance
 p.intro()
